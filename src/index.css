@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1em 2em;
-    background-color: #8585E6;
+    background-color: #086182;
     color: white;
 }
 
@@ -29,14 +29,33 @@ nav a {
 
 .cta {
     padding: 1em;
-    background-color: #8585E6;
+    background-color: #086182;
     color: white;
     text-align: center;
     margin: 2em 0;
 }
 
+.cta a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+    background-color: #086182;
+}
+
 .validation {
     color: red;
+}
+
+.btn-logo {
+    height: 20px;
+    width: 20px;
+    margin-right: 0.5em;
+    vertical-align: middle;
 }
 
 footer {
