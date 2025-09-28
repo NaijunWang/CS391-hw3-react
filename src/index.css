@@ -26,3 +26,18 @@ nav a {
 .content {
     padding: 1em;
 }
+
+.cta {
+    padding: 1em;
+    background-color: #8585E6;
+    color: white;
+    text-align: center;
+    margin: 2em 0;
+}
+
+footer {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
