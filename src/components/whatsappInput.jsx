@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import whatsapplogo from "../../public/whatsapp.svg"
-
 export function WhatsappInput({addPhone}){
     const handleInput = (e) => {
         e.preventDefault();
@@ -15,7 +13,7 @@ export function WhatsappInput({addPhone}){
     };
     return (
       <div>
-        <Link onClick={handleInput}><img className="btn-logo" src={whatsapplogo} />Join for Whatsapp</Link>
+        <Link onClick={handleInput}><img className="btn-logo" src="/whatsapp.svg" />Join for Whatsapp</Link>
       </div>
     );
 }
