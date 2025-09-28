@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1e1e6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: #8585E6;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.nav-left {
+  font-weight: bold;
+}
+
+.content {
+    padding: 1em;
+}
