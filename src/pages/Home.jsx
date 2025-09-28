@@ -2,6 +2,7 @@ import "../index.css";
 import { NavBar } from "../components/navbar";
 import { Footer } from "../components/footer";
 import { WebInput } from "../components/webInput";
+import { WhatsappInput } from "../components/whatsappInput";
 import { useState } from "react";
 export function Home() {
   const [phoneList, setPhoneList] = useState([]);
@@ -39,6 +40,7 @@ export function Home() {
       </div>
       <div className="cta">
         <h2>Want to try it out?</h2>
+        <WhatsappInput addPhone={addPhone} />
       </div>
       <Footer />
     </div>
